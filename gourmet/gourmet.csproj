@@ -53,8 +53,40 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Helpers\IconFinder.cs" />
     <Compile Include="Source\Models\Abstract\IEmotion.cs" />
     <Compile Include="Source\Models\Abstract\IIngredient.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Annoyance.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Anxiety.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Arousal.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Concentration.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Confidence.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Disgust.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Distraction.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Fright.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Happiness.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Interest.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Kindness.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Pleasure.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Sadness.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Serenity.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Tiredness.cs" />
+    <Compile Include="Source\Models\Concrete\Emotions\Wonder.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Avocado.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Banana.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Chilli.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Egg.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Flour.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Macaroni.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\MilkChocolate.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Onion.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Orange.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\RedMeat.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Salmon.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Sausage.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Tomato.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\VegetableOil.cs" />
+    <Compile Include="Source\Models\Concrete\Ingredients\Walnuts.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,6 +112,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avocado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chilli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macaroni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milkchocolate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redmeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salmon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sausage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetableoil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walnuts.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
