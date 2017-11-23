@@ -20,7 +20,6 @@ public class EmoGourmetBot extends TelegramLongPollingBot{
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(message.getChatId());
-//        sendMessage.setReplyToMessageId(message.getMessageId());
         sendMessage.setText("_" + text + "_");
         try {
             execute(sendMessage);

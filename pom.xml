@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.kpfu.itis</groupId>
-    <artifactId>gourmebot</artifactId>
+    <artifactId>gourmet</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
