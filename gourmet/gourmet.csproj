@@ -53,7 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Bot.cs" />
     <Compile Include="Source\Helpers\IconFinder.cs" />
+    <Compile Include="Source\IngredientList.cs" />
     <Compile Include="Source\Models\Abstract\IEmotion.cs" />
     <Compile Include="Source\Models\Abstract\IIngredient.cs" />
     <Compile Include="Source\Models\Concrete\Emotions\Annoyance.cs" />
@@ -87,6 +89,7 @@
     <Compile Include="Source\Models\Concrete\Ingredients\Tomato.cs" />
     <Compile Include="Source\Models\Concrete\Ingredients\VegetableOil.cs" />
     <Compile Include="Source\Models\Concrete\Ingredients\Walnuts.cs" />
+    <Compile Include="Source\OppositeFinder.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
